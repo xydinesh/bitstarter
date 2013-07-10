@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 var parray = [2, 3, 5, 7];
 var flag = 0;
+var indexFile = "index.html"
+
 for (var i = 10; ; i++) {
     flag = 0;
     if (parray.length >= 100)
